@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Frontend Development",
+    "description": "Developed multiple websites using HTML, CSS, PHP, React and JavaScript, with attention to responsive design and best practices."
+  },
+  {
+    "title": "UI/UX Design",
+    "description": "Utilized prototyping tools like Figma to design and apply principles of effective user experience (UX); conducted usability evaluations and provided actionable design recommendations."
+  },
+  {
+    "title": "Backend Development",
+    "description": "Hands-on experience in building and managing databases, and proficient in Java, JavaScript and Python - built multiple applications in these languages."
+  },
+  {
+    "title": "Version Control",
+    "description": "Learnt best business practice of Git, GitHub, GitLab and Agile Methodology through summer internship."
+  },
+  {
+    "title": "CS Fundamentals",
+    "description": "Solid understanding of data structures, algorithms, computer architecture, digital logic and data processing concepts."
+  },
+  {
+    "title": "AI",
+    "description": "Built movement recognition programs using microcontrollers, applying basic machine learning concepts to hardware interaction."
+  }
+]
