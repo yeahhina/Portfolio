@@ -6,8 +6,8 @@ function Header() {
       <div className="navigationBar">
         <a>Home</a>
         <a>Skills</a>
-        <a>About</a>
         <a>Projects</a>
+        <a>About</a>
         <a>Contact Me</a>
       </div>
     </div>

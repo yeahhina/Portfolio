@@ -3,6 +3,7 @@ import Skills from "../view/skills";
 function Home() {
   return (
     <>
+      <Introduction />
       <Skills />
     </>
   );

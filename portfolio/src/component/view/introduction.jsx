@@ -2,7 +2,7 @@ import "./introduction.scss";
 function Introduction() {
   return (
     <div className="introduction">
-      <div className="textBox">
+      <div className="itemsContainer">
         <h1>Hello! I am Yeasmin!👋🏽</h1>
         <h2>~ Full-Stack Developer</h2>
         <p>
