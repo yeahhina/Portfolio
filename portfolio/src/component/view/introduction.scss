@@ -1,0 +1,43 @@
+.introduction {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .textBox {
+    width: 400px;
+
+    h1 {
+      font-size: 24px;
+      font-weight: 700;
+      text-align: left;
+    }
+    h2 {
+      font-size: 20px;
+      text-align: left;
+    }
+    p {
+      font-size: 16px;
+      justify-content: left;
+      text-align: left;
+      overflow: auto;
+    }
+    .socialLinks {
+      margin-top: 20px;
+      display: flex;
+      gap: 20px;
+      button {
+        height: 42px;
+        padding-left: 41px;
+        padding-right: 41px;
+        margin: 0;
+        border: 0;
+        background-color: #ecd6fc;
+        border-radius: 10px;
+        &:hover {
+          background-color: #d4b5f9;
+        }
+      }
+    }
+  }
+}
