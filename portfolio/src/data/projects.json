@@ -1,0 +1,51 @@
+[
+  {
+    "name": "SEAtS",
+    "description": "A dynamic React-based web application designed to automate seating arrangements for business events. Built in an Agile environment with continuous feedback and iterations, the app automatically generates seating plans based on two main constraints: avoiding repeat pairings from past events and ensuring VIPs are assigned to designated tables.",
+    "technologies_used": [
+      "React",
+      "Node.js",
+      "Javascript",
+      "CSS",
+      "Agile Development",
+      "Collaboration Tools"
+    ],
+    "links": {
+      "github": "GitHub",
+      "live_website": "Live Website"
+    }
+  },
+  {
+    "name": "PicMe",
+    "description": "A React-based web app that allows users to create personalized Polaroid-style photos. It lets users create personalized Polaroid photos by adding frames and stickers. Users can upload or take a photo, customize it with frames and stickers, and download the final image easily.",
+    "technologies_used": [
+      "Git & GitHub",
+      "React",
+      "Javascript",
+      "HTML",
+      "CSS",
+      "Konva",
+      "html2canvas"
+    ],
+    "links": {
+      "github": "GitHub",
+      "live_website": "Live Website"
+    }
+  },
+  {
+    "name": "Paw And Pixel",
+    "description": "A website built with PHP and MySQL that simulates a rental business. Users can browse available games and book gaming machines for rent through a basic interface.",
+    "technologies_used": [
+      "PHP",
+      "phpMyAdmin",
+      "SQL management",
+      "Javascript",
+      "HTML",
+      "CSS"
+    ],
+    "links": {
+      "learn_more": "Learn More",
+      "live_website": "Live Website"
+    }
+  }
+]
