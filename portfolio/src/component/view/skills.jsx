@@ -5,7 +5,7 @@ function Skills() {
   return (
     <div className="skills">
       <div className="itemsContainer">
-        <h1>MY SKILLS</h1>
+        <h1 id="title">MY SKILLS</h1>
         <div className="skillsCardsContainer">
           {skills.map((skill) => (
             <SkillCard skill={skill} />

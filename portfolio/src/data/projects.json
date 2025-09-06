@@ -3,17 +3,12 @@
     "name": "SEAtS",
     "description": "A dynamic React-based web application designed to automate seating arrangements for business events. Built in an Agile environment with continuous feedback and iterations, the app automatically generates seating plans based on two main constraints: avoiding repeat pairings from past events and ensuring VIPs are assigned to designated tables.",
     "technologies_used": [
-      "React",
-      "Node.js",
-      "Javascript",
-      "CSS",
+      "React, Node.js",
+      "Javascript, CSS",
       "Agile Development",
       "Collaboration Tools"
     ],
-    "links": {
-      "github": "GitHub",
-      "live_website": "Live Website"
-    }
+    "links": { "github": "GitHub", "live_website": "Live Website" }
   },
   {
     "name": "PicMe",
@@ -21,31 +16,31 @@
     "technologies_used": [
       "Git & GitHub",
       "React",
-      "Javascript",
-      "HTML",
-      "CSS",
-      "Konva",
-      "html2canvas"
+      "Javascript, HTML, CSS",
+      "Konva, html2canvas"
     ],
-    "links": {
-      "github": "GitHub",
-      "live_website": "Live Website"
-    }
+    "links": { "github": "GitHub", "live_website": "Live Website" }
   },
   {
     "name": "Paw And Pixel",
     "description": "A website built with PHP and MySQL that simulates a rental business. Users can browse available games and book gaming machines for rent through a basic interface.",
     "technologies_used": [
       "PHP",
-      "phpMyAdmin",
-      "SQL management",
-      "Javascript",
-      "HTML",
-      "CSS"
+      "phpMyAdmin, SQL management",
+      "Javascript, HTML, CSS"
     ],
-    "links": {
-      "learn_more": "Learn More",
-      "live_website": "Live Website"
-    }
+    "links": { "learn_more": "Learn More", "live_website": "Live Website" }
+  },
+  {
+    "name": "Heiwa",
+    "description": "Heiwa is a planner application designed to help users manage their tasks and improve wellbeing by reducing procrastination. It features an interactive pet and a Sudoku mini-game to motivate users to stay focused and complete their goals. The app is built using Python for the backend, Tkinter for the desktop interface, and MySQL for data management.",
+    "technologies_used": ["Python", "MySQL", "Tkinter"],
+    "links": { "github": "GitHub", "learn_more": "Learn More" }
+  },
+  {
+    "name": "CV Builder",
+    "description": "A Java-based desktop application developed as part of a university project. It allows users to create and manage basic CVs by inputting details such as name, job title, email, and references. The application supports saving and loading CVs using plain .txt files, offering a simple way to store and update resume information offline.",
+    "technologies_used": ["Git & GitHub", "Java, JDK, Java Swing", "NetBeans"],
+    "links": { "github": "GitHub", "live_website": "Live Website" }
   }
 ]
