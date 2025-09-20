@@ -1,0 +1,55 @@
+.aboutMe {
+  min-height: 100vh;
+  display: flex;
+  padding-bottom: 10%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+
+  #title {
+    font-size: 24px;
+    padding-bottom: 28px;
+    width: 571px;
+    text-align: center;
+    border-bottom: 2px solid #000;
+  }
+  .line {
+    border: none;
+    border-bottom: 2px solid #000;
+    width: 80px;
+  }
+  .itemsContainer {
+    display: flex;
+    gap: 17px;
+    flex-direction: column;
+
+    h1 {
+      font-size: 24px;
+      font-weight: 700;
+      text-align: left;
+    }
+    h2 {
+      font-size: 20px;
+      text-align: left;
+    }
+    p {
+      font-size: 16px;
+      justify-content: left;
+      text-align: left;
+      overflow: auto;
+    }
+          button {
+        height: 42px;
+        padding-left: 41px;
+        padding-right: 41px;
+        margin: 0;
+        border: 0;
+        background-color: #ecd6fc;
+        border-radius: 10px;
+        &:hover {
+          background-color: #d4b5f9;
+        }
+      }
+  }
+}

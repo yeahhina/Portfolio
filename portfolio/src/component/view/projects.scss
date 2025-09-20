@@ -17,18 +17,15 @@
       text-align: center;
       border-bottom: 2px solid #000;
     }
-    .projectsCardsAndButtonsContainer {
+    .projectsCardsContainer {
       display: flex;
-
+      overflow: scroll;
       width: 100%;
-      justify-content: center;
-    }
-  }
-  .projectsCardsContainer {
-    display: flex;
-    overflow: scroll;
-    * {
-      flex-shrink: 0;
+      gap: 24px;
+      padding-bottom: 20px;
+      * {
+        flex-shrink: 0;
+      }
     }
   }
 }

@@ -7,12 +7,10 @@ function Projects() {
     <div className="projects">
       <div className="itemsContainer">
         <h1 id="title">PROJECTS</h1>
-        <div className="projectsCardsAndButtonsContainer">
-          <div className="projectsCardsContainer">
-            {projects.map((project) => (
-              <ProjectCard project={project} />
-            ))}
-          </div>
+        <div className="projectsCardsContainer">
+          {projects.map((project) => (
+            <ProjectCard project={project} />
+          ))}
         </div>
       </div>
     </div>
