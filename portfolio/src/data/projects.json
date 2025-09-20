@@ -8,7 +8,16 @@
       "Agile Development",
       "Collaboration Tools"
     ],
-    "links": { "github": "GitHub", "live_website": "Live Website" }
+    "links": [
+      {
+        "name": "Learn More",
+        "link": ""
+      },
+      {
+        "name": "Live Website",
+        "link": "https://appfactory.cseconnect.org/seat/"
+      }
+    ]
   },
   {
     "name": "PicMe",
@@ -19,7 +28,10 @@
       "Javascript, HTML, CSS",
       "Konva, html2canvas"
     ],
-    "links": { "github": "GitHub", "live_website": "Live Website" }
+    "links": [
+      { "name": "GitHub", "link": "https://github.com/" },
+      { "name": "Live Website", "link": "https://example.com/picme" }
+    ]
   },
   {
     "name": "Paw And Pixel",
@@ -29,18 +41,30 @@
       "phpMyAdmin, SQL management",
       "Javascript, HTML, CSS"
     ],
-    "links": { "learn_more": "Learn More", "live_website": "Live Website" }
+    "links": [
+      {
+        "name": "Learn More",
+        "link": "https://example.com/paw-and-pixel-info"
+      },
+      { "name": "Live Website", "link": "https://example.com/paw-and-pixel" }
+    ]
   },
   {
     "name": "Heiwa",
     "description": "Heiwa is a planner application designed to help users manage their tasks and improve wellbeing by reducing procrastination. It features an interactive pet and a Sudoku mini-game to motivate users to stay focused and complete their goals. The app is built using Python for the backend, Tkinter for the desktop interface, and MySQL for data management.",
     "technologies_used": ["Python", "MySQL", "Tkinter"],
-    "links": { "github": "GitHub", "learn_more": "Learn More" }
+    "links": [
+      { "name": "GitHub", "link": "https://github.com/" },
+      { "name": "Learn More", "link": "https://example.com/heiwa" }
+    ]
   },
   {
     "name": "CV Builder",
     "description": "A Java-based desktop application developed as part of a university project. It allows users to create and manage basic CVs by inputting details such as name, job title, email, and references. The application supports saving and loading CVs using plain .txt files, offering a simple way to store and update resume information offline.",
     "technologies_used": ["Git & GitHub", "Java, JDK, Java Swing", "NetBeans"],
-    "links": { "github": "GitHub", "live_website": "Live Website" }
+    "links": [
+      { "name": "GitHub", "link": "https://github.com/" },
+      { "name": "Live Website", "link": "https://example.com/cv-builder" }
+    ]
   }
 ]

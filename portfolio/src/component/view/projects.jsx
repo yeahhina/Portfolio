@@ -8,13 +8,11 @@ function Projects() {
       <div className="itemsContainer">
         <h1 id="title">PROJECTS</h1>
         <div className="projectsCardsAndButtonsContainer">
-          <button className="arrow left">{`<`}</button>
           <div className="projectsCardsContainer">
             {projects.map((project) => (
               <ProjectCard project={project} />
             ))}
           </div>
-          <button className="arrow right">{`>`}</button>
         </div>
       </div>
     </div>
