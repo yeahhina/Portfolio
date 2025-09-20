@@ -5,7 +5,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 30px;
+  gap: 50px;
 
   #title {
     font-size: 24px;
@@ -21,8 +21,13 @@
   }
   .itemsContainer {
     display: flex;
-    gap: 17px;
-    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+    img {
+      width: 400px;
+      height: 400px;
+    }
 
     h1 {
       font-size: 24px;
@@ -39,17 +44,24 @@
       text-align: left;
       overflow: auto;
     }
-          button {
-        height: 42px;
-        padding-left: 41px;
-        padding-right: 41px;
-        margin: 0;
-        border: 0;
-        background-color: #ecd6fc;
-        border-radius: 10px;
-        &:hover {
-          background-color: #d4b5f9;
-        }
+    .right {
+      display: flex;
+      flex-direction: column;
+      gap: 17px;
+      height: 100%;
+      width: 470px;
+    }
+    button {
+      height: 42px;
+      padding-left: 41px;
+      padding-right: 41px;
+      margin: 0;
+      border: 0;
+      background-color: #ecd6fc;
+      border-radius: 10px;
+      &:hover {
+        background-color: #d4b5f9;
       }
+    }
   }
 }
