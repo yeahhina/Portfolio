@@ -15,9 +15,25 @@ function ProjectCard({ project }) {
       </div>
 
       <div className="links">
-        {project.links?.map((linkObj, index) => (
-          <button>{linkObj.name}</button>
-        ))}
+        {project.links
+          ?.filter(
+            (linkObj) =>
+              linkObj.name === "GitHub" || linkObj.name === "Live Website"
+          )
+          .map((linkObj, index) => (
+            <a
+              key={index}
+              href={linkObj.link}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button>{linkObj.name}</button>
+            </a>
+          ))}
+
+        {project.links?.some((linkObj) => linkObj.name === "Learn More") && (
+          <button>Learn More</button>
+        )}
       </div>
     </div>
   );

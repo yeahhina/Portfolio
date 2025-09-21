@@ -44,7 +44,7 @@
     "links": [
       {
         "name": "Learn More",
-        "link": "https://example.com/paw-and-pixel-info"
+        "link": ""
       },
       {
         "name": "Live Website",
@@ -61,7 +61,7 @@
         "name": "GitHub",
         "link": "https://github.com/yeahhina/MyFirstProject-Heiwa-Wellbeing-Agenda"
       },
-      { "name": "Learn More", "link": "https://example.com/heiwa" }
+      { "name": "Learn More", "link": "" }
     ]
   },
   {
@@ -69,8 +69,8 @@
     "description": "A Java-based desktop application developed as part of a university project. It allows users to create and manage basic CVs by inputting details such as name, job title, email, and references. The application supports saving and loading CVs using plain .txt files, offering a simple way to store and update resume information offline.",
     "technologies_used": ["Git & GitHub", "Java, JDK, Java Swing", "NetBeans"],
     "links": [
-      { "name": "GitHub", "link": "https://github.com/" },
-      { "name": "Live Website", "link": "https://example.com/cv-builder" }
+      { "name": "Learn More", "link": "" },
+      { "name": "GitHub", "link": "https://github.com/yeahhina/cvbuilder" }
     ]
   }
 ]
