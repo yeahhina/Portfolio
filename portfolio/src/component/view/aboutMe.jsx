@@ -1,5 +1,5 @@
 import "./aboutMe.scss";
-import photo from "./../../data/photo.png";
+import photo from "./../../assets/photo.png";
 function AboutMe() {
   return (
     <div className="aboutMe">
@@ -8,16 +8,16 @@ function AboutMe() {
       <div className="itemsContainer">
         <img src={photo} />
         <div className="right">
-          <h2 className="subtitle">FULL-STACK & IU DEVELOPER</h2>
+          <h2 className="subtitle">FULL-STACK & UI DEVELOPER</h2>
           <hr class="line" />
 
           <p>
             Hi, I’m Yeasmin — a full-stack developer and UI designer based in
             London. I’m passionate about building responsive, user-friendly
             websites and applications that combine clean code with innovative
-            design. Skilled in HTML, CSS, JavaScript, and React, I focus on
-            crafting seamless user experiences with visually appealing
-            interfaces. <br />
+            design. Skilled in HTML, CSS, JavaScript, React, PHP, Python, and
+            Java, I focus on creating seamless user experiences backed by robust
+            functionality. <br />
           </p>
           <p>
             My coding journey began in sixth form, and since then I’ve worked on

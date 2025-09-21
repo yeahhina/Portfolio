@@ -1,4 +1,6 @@
 import "./introduction.scss";
+import { scrollToClass } from "../utility/scrollToElement";
+import { downloadCV } from "../utility/downloadCV";
 function Introduction() {
   return (
     <div className="introduction">
@@ -14,8 +16,20 @@ function Introduction() {
           improve my skills and deliver better solutions.
         </p>
         <div className="socialLinks">
-          <button>Contact Me</button>
-          <button>Download CV</button>
+          <button
+            onClick={() => {
+              scrollToClass("contactMe");
+            }}
+          >
+            Contact Me
+          </button>
+          <button
+            onClick={() => {
+              downloadCV();
+            }}
+          >
+            Download CV
+          </button>
         </div>
       </div>
     </div>
