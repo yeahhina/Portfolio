@@ -1,7 +1,34 @@
 import "./contactMe.scss";
 import linkedin from "./../../assets/linkedin.png";
 import github from "./../../assets/github.png";
+import { useState } from "react";
 function ContactMe() {
+  const [result, setResult] = useState("");
+
+  const onSubmit = async (event) => {
+    event.preventDefault();
+    setResult("Sending....");
+    const formData = new FormData(event.target);
+
+    formData.append("access_key", "4cf4fc99-06f6-4fed-a6f8-17e6e8a0e05c");
+
+    const response = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      body: formData,
+    });
+
+    const data = await response.json();
+
+    if (data.success) {
+      setResult("Form Submitted Successfully");
+      alert("I received your message. I will be replying ASAP.");
+      event.target.reset();
+    } else {
+      console.log("Error", data);
+      alert("Failed to send the message. Please, try again!");
+      setResult(data.message);
+    }
+  };
   return (
     <div className="contactMe">
       <h1 id="title">Contact Me</h1>
@@ -18,30 +45,47 @@ function ContactMe() {
             <p>y.mumtahina19@gmail.com</p>
           </div>
           <div className="socialLinks">
-            <img src={linkedin} />
-            <img src={github} />
+            <a
+              href="https://github.com/yeahhina"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={github} alt="GitHub" />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/yeasmin-m/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={linkedin} alt="LinkedIn" />
+            </a>
           </div>
         </div>
-        <form className="right">
+        <form className="right" onSubmit={onSubmit}>
           <div className="nameAndEmail">
             <div className="entry">
               <label>Your Name</label>
-              <input placeholder="Enter your name" />
+              <input name="name" placeholder="Enter your name" required />
             </div>
             <div className="entry">
               <label>Your Email</label>
-              <input placeholder="Enter your email" />
+              <input name="email" placeholder="Enter your email" required />
             </div>
           </div>
           <div className="entry subject">
             <label>Subject</label>
-            <input placeholder="Enter subject" />
+            <input name="subject" placeholder="Enter subject" required />
           </div>
           <div className="entry message">
             <label>Message</label>
-            <textarea className="messageBox" placeholder="Enter your message" />
+            <textarea
+              name="message"
+              className="messageBox"
+              placeholder="Enter your message"
+              required
+            />
           </div>
-          <button>Send Message</button>
+          <button type="submit">Send Message</button>
         </form>
       </div>
     </div>

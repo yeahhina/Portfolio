@@ -1,5 +1,6 @@
 import "./aboutMe.scss";
 import photo from "./../../assets/photo.png";
+import { downloadCV } from "./../utility/downloadCV";
 function AboutMe() {
   return (
     <div className="aboutMe">
@@ -27,7 +28,13 @@ function AboutMe() {
             university studies. I’m always eager to learn new technologies and
             push my skills further to deliver the best possible solutions.
           </p>
-          <button>Download CV</button>
+          <button
+            onClick={() => {
+              downloadCV();
+            }}
+          >
+            Download CV
+          </button>
         </div>
       </div>
     </div>
