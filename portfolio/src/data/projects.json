@@ -29,8 +29,8 @@
       "Konva, html2canvas"
     ],
     "links": [
-      { "name": "GitHub", "link": "https://github.com/" },
-      { "name": "Live Website", "link": "https://example.com/picme" }
+      { "name": "GitHub", "link": "https://github.com/yeahhina/picme" },
+      { "name": "Live Website", "link": "https://yeahhina.github.io/picme/" }
     ]
   },
   {
@@ -46,7 +46,10 @@
         "name": "Learn More",
         "link": "https://example.com/paw-and-pixel-info"
       },
-      { "name": "Live Website", "link": "https://example.com/paw-and-pixel" }
+      {
+        "name": "Live Website",
+        "link": "https://kunet.uk/k2321719/coursework/controller/home.php"
+      }
     ]
   },
   {
@@ -54,7 +57,10 @@
     "description": "Heiwa is a planner application designed to help users manage their tasks and improve wellbeing by reducing procrastination. It features an interactive pet and a Sudoku mini-game to motivate users to stay focused and complete their goals. The app is built using Python for the backend, Tkinter for the desktop interface, and MySQL for data management.",
     "technologies_used": ["Python", "MySQL", "Tkinter"],
     "links": [
-      { "name": "GitHub", "link": "https://github.com/" },
+      {
+        "name": "GitHub",
+        "link": "https://github.com/yeahhina/MyFirstProject-Heiwa-Wellbeing-Agenda"
+      },
       { "name": "Learn More", "link": "https://example.com/heiwa" }
     ]
   },
