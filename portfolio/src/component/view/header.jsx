@@ -1,12 +1,15 @@
 import "./header.scss";
 import { scrollToClass } from "../utility/scrollToElement";
+import { useNavigate } from "react-router-dom";
 function Header() {
+  const navigate = useNavigate();
   return (
     <div className="header">
       <h1 className="title">Yeasmin Mumtahina.</h1>
       <div className="navigationBar">
         <a
           onClick={() => {
+            navigate("/");
             scrollToClass("home");
           }}
         >
@@ -14,6 +17,7 @@ function Header() {
         </a>
         <a
           onClick={() => {
+            navigate("/");
             scrollToClass("skills");
           }}
         >
@@ -21,6 +25,7 @@ function Header() {
         </a>
         <a
           onClick={() => {
+            navigate("/");
             scrollToClass("projects");
           }}
         >
@@ -28,6 +33,7 @@ function Header() {
         </a>
         <a
           onClick={() => {
+            navigate("/");
             scrollToClass("aboutMe");
           }}
         >
@@ -35,6 +41,7 @@ function Header() {
         </a>
         <a
           onClick={() => {
+            navigate("/");
             scrollToClass("contactMe");
           }}
         >
