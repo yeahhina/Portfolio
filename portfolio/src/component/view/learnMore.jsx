@@ -23,16 +23,9 @@ function LearnMore() {
               return children;
             }
             return (
-              <div className="links">
-                <button
-                  {...props}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="btn"
-                >
-                  {children}
-                </button>
-              </div>
+              <a {...props} className="btn">
+                <button>{children}</button>
+              </a>
             );
           },
           h2: ({ node, ...props }) => (
