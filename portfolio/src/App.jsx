@@ -2,6 +2,7 @@ import Layout from "./component/layout/layout";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./component/layout/home";
 import LearnMore from "./component/view/learnMore";
+import { useState } from "react";
 
 function App() {
   return (
@@ -9,7 +10,8 @@ function App() {
       <BrowserRouter>
         <Layout>
           <Routes>
-            <Route path="/" element={<LearnMore />} />
+            <Route path="/" element={<Home />} />
+            <Route path="/learnMore" element={<LearnMore />} />
           </Routes>
         </Layout>
       </BrowserRouter>

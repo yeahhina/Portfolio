@@ -31,7 +31,7 @@ Using an Agile approach, I adapted the layouts each week to incorporate new requ
 
 The end result is a consistent, user-friendly interface that aligns closely with the client’s identity and provides a professional experience.
 
-Here's ia screenshot of the wireframes:
+These are some screenshots of the wireframes:
 
 ![wireframes.png](https://i.postimg.cc/J7FFSq7x/wireframes.png)
 

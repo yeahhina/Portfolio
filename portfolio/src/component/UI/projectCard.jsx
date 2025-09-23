@@ -2,7 +2,9 @@ import "./projectCard.scss";
 import { useNavigate } from "react-router-dom";
 
 function ProjectCard({ project }) {
-  console.log(project);
+  const navigate = useNavigate();
+  const learnMoreLink = project.links?.find((l) => l.name === "Learn More");
+
   return (
     <div className="projectCard">
       <h1>{project.name}</h1>
@@ -22,13 +24,24 @@ function ProjectCard({ project }) {
               linkObj.name === "GitHub" || linkObj.name === "Live Website"
           )
           .map((linkObj, index) => (
-            <a key={index} href={linkObj.link}>
+            <a
+              key={index}
+              href={linkObj.link}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <button>{linkObj.name}</button>
             </a>
           ))}
 
-        {project.links?.some((linkObj) => linkObj.name === "Learn More") && (
-          <button>Learn More</button>
+        {learnMoreLink && (
+          <button
+            onClick={() =>
+              navigate("/learnMore", { state: { mdFile: learnMoreLink.link } })
+            }
+          >
+            Learn More
+          </button>
         )}
       </div>
     </div>

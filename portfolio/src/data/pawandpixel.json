@@ -1,0 +1,71 @@
+{
+  "name": "Paw And Pixel",
+  "title": "Paw And Pixel",
+  "description": [
+    {
+      "text": "During my internship at Kingston University, facilitated by CSE Connect, I worked with my team to build a web application for managing seating arrangements for our client’s events. I designed and helped implement the app and worked on programming its features, so that planning events would be easier and more efficient."
+    }
+  ],
+  "objectives": [
+    {
+      "description": "The client had trouble managing attendee seating for business events, like Christmas parties, and needed a way to organize guests more easily."
+    },
+    {
+      "text": "Automating seating plans to make organizing events easier."
+    },
+    {
+      "text": "Helping manage event and employee data."
+    },
+    {
+      "text": "Allowing easy import and export of data."
+    },
+    {
+      "text": "Creating a user interface that was simple and easy to use."
+    }
+  ],
+  "technologies_used": [
+    { "text": "React and Node.js for building the web application." },
+    { "text": "JavaScript and CSS for programming and styling." },
+    { "text": "PapaParse for importing and exporting data efficiently." },
+    { "text": "Agile development practices to manage tasks and sprints." },
+    { "text": "Collaboration tools to coordinate work within the team." }
+  ],
+  "ui_design": [
+    {
+      "text": "I designed the interface in Figma to reflect the client’s brand as a law firm. Their signature green was used as the main accent to maintain consistency with their logo and overall branding."
+    },
+    {
+      "text": "The client requested a dark layout, so I experimented with color combinations in Paletton to create a professional and minimalistic look suitable for their industry."
+    },
+    {
+      "text": "I also researched modern UI design trends to develop a visual style that feels intuitive and familiar for new users."
+    },
+    {
+      "text": "Using an Agile approach, I adapted the layouts each week to incorporate new requirements. This kept the client involved throughout the process and ensured the final design met their expectations."
+    },
+    {
+      "text": "The end result is a consistent, user-friendly interface that aligns closely with the client’s identity and provides a professional experience."
+    }
+  ],
+  "images": [
+    {
+      "alt": "wireframes.png",
+      "src": "https://i.postimg.cc/J7FFSq7x/wireframes.png"
+    }
+  ],
+  "links": [
+    {
+      "name": "Live Website",
+      "link": "https://appfactory.cseconnect.org/seat/"
+    },
+    {
+      "name": "CSV File",
+      "link": "https://drive.google.com/file/d/1V_otPWjjmxPiB6I2AH-cP498ayS8G4HT/view?usp=sharing"
+    }
+  ],
+  "additional_notes": [
+    {
+      "text": "To test the website, create an account and download the CSV file."
+    }
+  ]
+}

@@ -11,7 +11,7 @@
     "links": [
       {
         "name": "Learn More",
-        "link": "./../../data/seats.md"
+        "link": "/data/seats.md"
       },
       {
         "name": "Live Website",
@@ -44,11 +44,11 @@
     "links": [
       {
         "name": "Learn More",
-        "link": ""
+        "link": "/data/pawandpixel.md"
       },
       {
         "name": "Live Website",
-        "link": "https://kunet.uk/k2321719/coursework/controller/home.php"
+        "link": "https://kunet.uk/k2321719/pawandpixel/controller/home.php"
       }
     ]
   },
@@ -61,7 +61,7 @@
         "name": "GitHub",
         "link": "https://github.com/yeahhina/MyFirstProject-Heiwa-Wellbeing-Agenda"
       },
-      { "name": "Learn More", "link": "" }
+      { "name": "Learn More", "link": "/data/heiwa.md" }
     ]
   },
   {
@@ -69,7 +69,7 @@
     "description": "A Java-based desktop application developed as part of a university project. It allows users to create and manage basic CVs by inputting details such as name, job title, email, and references. The application supports saving and loading CVs using plain .txt files, offering a simple way to store and update resume information offline.",
     "technologies_used": ["Git & GitHub", "Java, JDK, Java Swing", "NetBeans"],
     "links": [
-      { "name": "Learn More", "link": "" },
+      { "name": "Learn More", "link": "/data/cvbuilder.md" },
       { "name": "GitHub", "link": "https://github.com/yeahhina/cvbuilder" }
     ]
   }

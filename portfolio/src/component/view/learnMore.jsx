@@ -1,20 +1,31 @@
 import { useEffect, useState } from "react";
 import ReactMarkdown from "react-markdown";
+import { useNavigate, useLocation } from "react-router-dom";
 import "./learnMore.scss";
 
 function LearnMore() {
   const [content, setContent] = useState("");
+  const navigate = useNavigate();
+  const location = useLocation();
+  const file = location.state || {};
+  console.log(file);
 
   useEffect(() => {
-    fetch(require("./../../data/seats.md"))
-      .then((res) => res.text())
-      .then(setContent);
-  }, []);
+    if (!file.mdFile) return;
+
+    fetch(file.mdFile)
+      .then((res) => {
+        if (!res.ok) throw new Error("Markdown file not found");
+        return res.text();
+      })
+      .then(setContent)
+      .catch(console.error);
+  }, [file.mdFile]);
 
   return (
     <div className="learnMore">
       <div className="back">
-        <a>← Back</a>
+        <a onClick={() => navigate(-1)}>← Back</a>
       </div>
       <ReactMarkdown
         components={{
