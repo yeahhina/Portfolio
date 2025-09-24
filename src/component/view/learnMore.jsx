@@ -13,7 +13,7 @@ function LearnMore() {
   useEffect(() => {
     if (!file.mdFile) return;
 
-    fetch(file.mdFile)
+    fetch(process.env.PUBLIC_URL + file.mdFile)
       .then((res) => {
         if (!res.ok) throw new Error("Markdown file not found");
         return res.text();
