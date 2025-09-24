@@ -40,4 +40,12 @@
       }
     }
   }
+  @media (max-width: 500px) {
+    width: 350px;
+    height: 550px;
+    padding: 10px;
+    p {
+      width: 100%;
+    }
+  }
 }

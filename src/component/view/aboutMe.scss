@@ -77,5 +77,8 @@
 @media (max-width: 925px) {
   .itemsContainer {
     flex-direction: column;
+    img {
+      width: 50%;
+    }
   }
 }
