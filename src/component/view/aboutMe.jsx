@@ -7,7 +7,6 @@ function AboutMe() {
       <h1 id="title">
         ABOUT ME <hr class="line" />
       </h1>
-
       <div className="itemsContainer">
         <img src={photo} />
         <div className="right">
