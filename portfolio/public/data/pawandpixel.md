@@ -19,7 +19,7 @@ The project was focused on functionality, rather than UI. However, there were ce
 
 ## Technologies Used
 
-- MySQL for managing and storing data.
+- PHPMyAdmin for managing and storing data.
 - PHP, HTML, CSS, JavaScript, and jQuery for building the web application.
 
 ## Additional Notes

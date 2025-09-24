@@ -24,12 +24,7 @@ function ProjectCard({ project }) {
               linkObj.name === "GitHub" || linkObj.name === "Live Website"
           )
           .map((linkObj, index) => (
-            <a
-              key={index}
-              href={linkObj.link}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            <a key={index} href={linkObj.link}>
               <button>{linkObj.name}</button>
             </a>
           ))}

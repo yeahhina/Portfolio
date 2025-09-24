@@ -29,7 +29,7 @@
       "Konva, html2canvas"
     ],
     "links": [
-      { "name": "GitHub", "link": "https://github.com/yeahhina/picme" },
+      { "name": "Learn More", "link": "/data/picme.md" },
       { "name": "Live Website", "link": "https://yeahhina.github.io/picme/" }
     ]
   },
