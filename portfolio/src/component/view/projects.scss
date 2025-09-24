@@ -12,21 +12,38 @@
     gap: 60px;
     width: 100%;
     #title {
+      display: flex;
       font-size: 24px;
-      padding-bottom: 28px;
-      width: 571px;
+      gap: 28px;
+      width: 100%;
       text-align: center;
-      border-bottom: 2px solid #000;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      .line {
+        width: 50%;
+      }
     }
+
     .projectsCardsContainer {
       display: flex;
       overflow: scroll;
       width: 100%;
       gap: 24px;
       padding-bottom: 20px;
+
       * {
         flex-shrink: 0;
       }
+    }
+  }
+}
+@media (max-width: 500px) {
+  .projectsCardsContainer {
+    padding-left: 10px;
+    scroll-snap-type: x mandatory;
+    * {
+      scroll-snap-align: center; /* each item aligns to center */
     }
   }
 }

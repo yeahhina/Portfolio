@@ -39,8 +39,14 @@ function LearnMore() {
               </a>
             );
           },
+          h1: ({ node, ...props }) => (
+            <div id="title">
+              <h1 {...props} />
+              <hr className="line" />
+            </div>
+          ),
           h2: ({ node, ...props }) => (
-            <div>
+            <div className="subtitle">
               <h2 {...props} />
               <hr className="line" />
             </div>

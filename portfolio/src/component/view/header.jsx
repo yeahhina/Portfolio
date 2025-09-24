@@ -13,7 +13,7 @@ function Header() {
             scrollToClass("home");
           }}
         >
-          Home
+          Intro
         </a>
         <a
           onClick={() => {

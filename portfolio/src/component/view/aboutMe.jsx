@@ -4,7 +4,9 @@ import { downloadCV } from "./../utility/downloadCV";
 function AboutMe() {
   return (
     <div className="aboutMe">
-      <h1 id="title">ABOUT ME</h1>
+      <h1 id="title">
+        ABOUT ME <hr class="line" />
+      </h1>
 
       <div className="itemsContainer">
         <img src={photo} />

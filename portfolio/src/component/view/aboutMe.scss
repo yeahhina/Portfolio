@@ -8,11 +8,17 @@
   gap: 50px;
 
   #title {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
     font-size: 24px;
-    padding-bottom: 28px;
-    width: 571px;
+    justify-content: center;
+    width: 100%;
     text-align: center;
-    border-bottom: 2px solid #000;
+    align-items: center;
+    .line {
+      width: 50%;
+    }
   }
   .line {
     border: none;
@@ -50,6 +56,9 @@
       gap: 17px;
       height: 100%;
       width: 470px;
+      @media (max-width: 925px) {
+        width: 80%;
+      }
     }
     button {
       height: 42px;
@@ -63,5 +72,10 @@
         background-color: #d4b5f9;
       }
     }
+  }
+}
+@media (max-width: 925px) {
+  .itemsContainer {
+    flex-direction: column;
   }
 }

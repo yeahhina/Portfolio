@@ -25,15 +25,25 @@ The main objectives of the application were:
 ## User Interface
 
 Again, this was my first project. I had no experience of UI but I still wanted to make something I was proud of. At the time, I was. Now, not that much anymore.
+
 Initial Page:
+
 ![image.png](https://i.postimg.cc/0j24ZMDh/image.png)
+
 Home:
+
 ![image.png](https://i.postimg.cc/vBp1t9JZ/image.png)
+
 Sudoku:
+
 ![image.png](https://i.postimg.cc/BvnK70ML/image.png)
+
 Calendar:
+
 ![image.png](https://i.postimg.cc/T1LVRT6p/image.png)
+
 Agenda:
+
 ![image.png](https://i.postimg.cc/mgG3wJvC/image.png)
 
 To learn more about this, read the documentation!

@@ -6,7 +6,11 @@ function Projects() {
   return (
     <div className="projects">
       <div className="itemsContainer">
-        <h1 id="title">PROJECTS</h1>
+        <h1 id="title">
+          PROJECTS
+          <hr class="line" />
+        </h1>
+
         <div className="projectsCardsContainer">
           {projects.map((project) => (
             <ProjectCard project={project} />

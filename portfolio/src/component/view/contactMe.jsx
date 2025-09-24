@@ -31,7 +31,9 @@ function ContactMe() {
   };
   return (
     <div className="contactMe">
-      <h1 id="title">Contact Me</h1>
+      <h1 id="title">
+        Contact Me <hr class="line" />
+      </h1>
       <div className="itemsContainer">
         <div className="left">
           <h2 className="subtitle"> Get In Touch</h2>
