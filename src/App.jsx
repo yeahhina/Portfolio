@@ -7,7 +7,7 @@ import { useState } from "react";
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <BrowserRouter basename="/portfolio">
         <Layout>
           <Routes>
             <Route path="/" element={<Home />} />
