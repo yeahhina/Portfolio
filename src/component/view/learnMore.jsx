@@ -13,13 +13,15 @@ function LearnMore() {
   useEffect(() => {
     if (!file.mdFile) return;
 
-    fetch(process.env.PUBLIC_URL + file.mdFile)
+    const path = `${process.env.PUBLIC_URL}${file.mdFile}`;
+
+    fetch(path)
       .then((res) => {
-        if (!res.ok) throw new Error("Markdown file not found");
+        if (!res.ok) throw new Error(`Could not fetch ${path}`);
         return res.text();
       })
       .then(setContent)
-      .catch(console.error);
+      .catch((err) => console.error("Markdown load error:", err));
   }, [file.mdFile]);
 
   return (
